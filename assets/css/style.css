@@ -1,0 +1,45 @@
+:root {
+    --light-orange: #FFBFA7;
+    --mid-orange: #EB5B3C;
+    --dark-orange: #923C29;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background-color: var(--mid-orange);
+}
+
+main {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    height: 85%;
+    overflow-y: auto;
+}
+
+footer {
+    height: 5%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    background-color: #EB5B3C;
+}
+
+#logo {
+    display: flex;
+    align-self: center;
+    width: 4%;
+    margin-left: 16px;
+    height: 100%;
+
+    background: url("assets\svg\logo");
+}
