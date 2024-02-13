@@ -10,6 +10,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     height: 10%;
     position: fixed;
     top: 0;
@@ -35,11 +37,29 @@ footer {
 }
 
 #logo {
-    display: flex;
     align-self: center;
     width: 4%;
     margin-left: 16px;
     height: 100%;
 
     background: url("assets\svg\logo");
+}
+
+.menu-block {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    width: 250px;
+    flex-direction: row;
+    margin-right: 16px;
+}
+
+.menu-options {
+
+    font-family: Koulen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    line-height: normal;
 }
